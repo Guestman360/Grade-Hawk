@@ -12,6 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    // Hawk photos for icon
+    // https://thenounproject.com/term/hawk/1367840/
+    // https://thenounproject.com/term/hawk/1371575/
+    // https://thenounproject.com/term/hawk/58307/
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
