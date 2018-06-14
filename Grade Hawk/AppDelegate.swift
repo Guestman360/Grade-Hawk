@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // https://thenounproject.com/term/hawk/1367840/
     // https://thenounproject.com/term/hawk/1371575/
     // https://thenounproject.com/term/hawk/58307/
+    // Script f0r submitting to app store
+    // https://realm.io/docs/swift/latest
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

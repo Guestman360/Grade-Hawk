@@ -1,0 +1,6 @@
+framework module Pods_Grade_Hawk {
+  umbrella header "Pods-Grade Hawk-umbrella.h"
+
+  export *
+  module * { export * }
+}

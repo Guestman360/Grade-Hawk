@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04272C1E20D0E8F700F78574 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04272C1C20D0E8F600F78574 /* Realm.framework */; };
+		04272C1F20D0E8F700F78574 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04272C1C20D0E8F600F78574 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04272C2020D0E8F700F78574 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04272C1D20D0E8F700F78574 /* RealmSwift.framework */; };
+		04272C2120D0E8F700F78574 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04272C1D20D0E8F700F78574 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0484B3F020C4EED100D2989B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484B3EF20C4EED100D2989B /* AppDelegate.swift */; };
 		0484B3F220C4EED100D2989B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484B3F120C4EED100D2989B /* ViewController.swift */; };
 		0484B3F520C4EED100D2989B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0484B3F320C4EED100D2989B /* Main.storyboard */; };
 		0484B3F720C4EED300D2989B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0484B3F620C4EED300D2989B /* Assets.xcassets */; };
 		0484B3FA20C4EED300D2989B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0484B3F820C4EED300D2989B /* LaunchScreen.storyboard */; };
 		0484B40520C4EED300D2989B /* Grade_HawkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484B40420C4EED300D2989B /* Grade_HawkTests.swift */; };
+		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
+		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +31,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04272C2220D0E8F700F78574 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04272C2120D0E8F700F78574 /* RealmSwift.framework in Embed Frameworks */,
+				04272C1F20D0E8F700F78574 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04272C1C20D0E8F600F78574 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		04272C1D20D0E8F700F78574 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		0484B3EC20C4EED100D2989B /* Grade Hawk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grade Hawk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0484B3EF20C4EED100D2989B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0484B3F120C4EED100D2989B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +59,12 @@
 		0484B40020C4EED300D2989B /* Grade HawkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grade HawkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0484B40420C4EED300D2989B /* Grade_HawkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade_HawkTests.swift; sourceTree = "<group>"; };
 		0484B40620C4EED300D2989B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
+		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_Hawk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32FA68F7DC469BC13CD2FBC /* Pods-Grade HawkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7CA9D92A6423B59E2EEE755 /* Pods-Grade Hawk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04272C1E20D0E8F700F78574 /* Realm.framework in Frameworks */,
+				C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */,
+				04272C2020D0E8F700F78574 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +92,13 @@
 		0484B3E320C4EED100D2989B = {
 			isa = PBXGroup;
 			children = (
+				04272C1C20D0E8F600F78574 /* Realm.framework */,
+				04272C1D20D0E8F700F78574 /* RealmSwift.framework */,
 				0484B3EE20C4EED100D2989B /* Grade Hawk */,
 				0484B40320C4EED300D2989B /* Grade HawkTests */,
 				0484B3ED20C4EED100D2989B /* Products */,
+				1931CBB3CFAB92A052E0BE67 /* Pods */,
+				883C8748A5DBD8DB1E8C4313 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +133,26 @@
 			path = "Grade HawkTests";
 			sourceTree = "<group>";
 		};
+		1931CBB3CFAB92A052E0BE67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */,
+				C7CA9D92A6423B59E2EEE755 /* Pods-Grade Hawk.release.xcconfig */,
+				B32FA68F7DC469BC13CD2FBC /* Pods-Grade HawkTests.debug.xcconfig */,
+				475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		883C8748A5DBD8DB1E8C4313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */,
+				2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0484B40920C4EED300D2989B /* Build configuration list for PBXNativeTarget "Grade Hawk" */;
 			buildPhases = (
+				A389D5D6F8D8EF683A43F65C /* [CP] Check Pods Manifest.lock */,
 				0484B3E820C4EED100D2989B /* Sources */,
 				0484B3E920C4EED100D2989B /* Frameworks */,
 				0484B3EA20C4EED100D2989B /* Resources */,
+				F5DA9FD91E5584619892BBD8 /* [CP] Embed Pods Frameworks */,
+				04272C2220D0E8F700F78574 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0484B40C20C4EED300D2989B /* Build configuration list for PBXNativeTarget "Grade HawkTests" */;
 			buildPhases = (
+				631FE39299914F09EE7BD0D8 /* [CP] Check Pods Manifest.lock */,
 				0484B3FC20C4EED300D2989B /* Sources */,
 				0484B3FD20C4EED300D2989B /* Frameworks */,
 				0484B3FE20C4EED300D2989B /* Resources */,
@@ -191,6 +252,71 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		631FE39299914F09EE7BD0D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grade HawkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A389D5D6F8D8EF683A43F65C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grade Hawk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DA9FD91E5584619892BBD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LPSnackbar/LPSnackbar.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/UIEmptyState/UIEmptyState.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPSnackbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIEmptyState.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0484B3E820C4EED100D2989B /* Sources */ = {
@@ -356,10 +482,15 @@
 		};
 		0484B40A20C4EED300D2989B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUKPL73RD7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Grade Hawk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,10 +505,15 @@
 		};
 		0484B40B20C4EED300D2989B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CA9D92A6423B59E2EEE755 /* Pods-Grade Hawk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUKPL73RD7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Grade Hawk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -392,6 +528,7 @@
 		};
 		0484B40D20C4EED300D2989B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32FA68F7DC469BC13CD2FBC /* Pods-Grade HawkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -413,6 +550,7 @@
 		};
 		0484B40E20C4EED300D2989B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

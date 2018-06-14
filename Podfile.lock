@@ -1,0 +1,34 @@
+PODS:
+  - LPSnackbar (2.1.2)
+  - Realm (3.7.1):
+    - Realm/Headers (= 3.7.1)
+  - Realm/Headers (3.7.1)
+  - RealmSwift (3.7.1):
+    - Realm (= 3.7.1)
+  - UICircularProgressRing (2.1.1)
+  - UIEmptyState (3.1.2)
+
+DEPENDENCIES:
+  - LPSnackbar
+  - RealmSwift
+  - UICircularProgressRing
+  - UIEmptyState
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LPSnackbar
+    - Realm
+    - RealmSwift
+    - UICircularProgressRing
+    - UIEmptyState
+
+SPEC CHECKSUMS:
+  LPSnackbar: 885e3bc7ee2d23ab2a93df07519f785227cc3d0e
+  Realm: 906be37d52f17f25484ac01643a7f26a9d3bfbd5
+  RealmSwift: 1c2b6bae3dc55bb87e080ffa96537d71442f6dce
+  UICircularProgressRing: 2c6f21e40d976a7f114e4008f1c786a4e1c888aa
+  UIEmptyState: e6331312fb788880575701cb9c6230e5d2eaf6b0
+
+PODFILE CHECKSUM: a6398ac48479b46737532f7186f580c59f595391
+
+COCOAPODS: 1.5.2
