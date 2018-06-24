@@ -49,6 +49,10 @@
 		04D750D920E0278500358FE1 /* UIApplicationShortcutItem+QuickActionID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750D820E0278500358FE1 /* UIApplicationShortcutItem+QuickActionID.swift */; };
 		04D750DB20E0279B00358FE1 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750DA20E0279B00358FE1 /* Array+Extensions.swift */; };
 		04D750DD20E027B200358FE1 /* UIViewController+StatusBarFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750DC20E027B200358FE1 /* UIViewController+StatusBarFix.swift */; };
+		04D750E220E028AF00358FE1 /* QuickActionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750DE20E028AE00358FE1 /* QuickActionId.swift */; };
+		04D750E320E028AF00358FE1 /* StudentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750DF20E028AE00358FE1 /* StudentType.swift */; };
+		04D750E420E028AF00358FE1 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750E020E028AE00358FE1 /* AlertType.swift */; };
+		04D750E520E028AF00358FE1 /* UIRubricViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750E120E028AF00358FE1 /* UIRubricViewState.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -125,6 +129,10 @@
 		04D750D820E0278500358FE1 /* UIApplicationShortcutItem+QuickActionID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplicationShortcutItem+QuickActionID.swift"; sourceTree = "<group>"; };
 		04D750DA20E0279B00358FE1 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		04D750DC20E027B200358FE1 /* UIViewController+StatusBarFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StatusBarFix.swift"; sourceTree = "<group>"; };
+		04D750DE20E028AE00358FE1 /* QuickActionId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickActionId.swift; sourceTree = "<group>"; };
+		04D750DF20E028AE00358FE1 /* StudentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentType.swift; sourceTree = "<group>"; };
+		04D750E020E028AE00358FE1 /* AlertType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		04D750E120E028AF00358FE1 /* UIRubricViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRubricViewState.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -265,6 +273,10 @@
 		0488775720D22AE500815442 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				04D750E020E028AE00358FE1 /* AlertType.swift */,
+				04D750DE20E028AE00358FE1 /* QuickActionId.swift */,
+				04D750DF20E028AE00358FE1 /* StudentType.swift */,
+				04D750E120E028AF00358FE1 /* UIRubricViewState.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -548,8 +560,10 @@
 				04D750D920E0278500358FE1 /* UIApplicationShortcutItem+QuickActionID.swift in Sources */,
 				04D750C920E026B500358FE1 /* Int+Random.swift in Sources */,
 				04D750C720E0261900358FE1 /* UIColor+Extension.swift in Sources */,
+				04D750E320E028AF00358FE1 /* StudentType.swift in Sources */,
 				04D750B720E021ED00358FE1 /* ClassGradeType.swift in Sources */,
 				04D750CB20E026CA00358FE1 /* UILabel+Resize.swift in Sources */,
+				04D750E420E028AF00358FE1 /* AlertType.swift in Sources */,
 				04D750A320E0201D00358FE1 /* ApplicationTheme.swift in Sources */,
 				04D750CF20E026F300358FE1 /* UIViewController+Alert.swift in Sources */,
 				04D750D320E0272C00358FE1 /* UIButton+PulseAnimation.swift in Sources */,
@@ -572,11 +586,13 @@
 				04D750C320E023F900358FE1 /* GPARubric.swift in Sources */,
 				04D750C120E023EE00358FE1 /* GPAScale.swift in Sources */,
 				04D750D720E0275A00358FE1 /* CGFloat+ToRads.swift in Sources */,
+				04D750E220E028AF00358FE1 /* QuickActionId.swift in Sources */,
 				04D750B320E021CB00358FE1 /* Grade.swift in Sources */,
 				04D750D120E0271800358FE1 /* UIButton+Handler.swift in Sources */,
 				04D750B120E021C200358FE1 /* Assignment.swift in Sources */,
 				04D750BD20E0239400358FE1 /* RatingManager.swift in Sources */,
 				04D750AF20E021B400358FE1 /* Rubric.swift in Sources */,
+				04D750E520E028AF00358FE1 /* UIRubricViewState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
