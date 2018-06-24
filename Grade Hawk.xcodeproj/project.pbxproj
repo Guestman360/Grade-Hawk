@@ -59,6 +59,10 @@
 		04D750EF20E0293D00358FE1 /* UIPickerFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750E920E0293D00358FE1 /* UIPickerFieldDelegate.swift */; };
 		04D750F020E0293D00358FE1 /* Segueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750EA20E0293D00358FE1 /* Segueable.swift */; };
 		04D750F120E0293D00358FE1 /* ClassChangesListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750EB20E0293D00358FE1 /* ClassChangesListener.swift */; };
+		04D752A920E065FF00358FE1 /* ClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752A520E065FE00358FE1 /* ClassTableViewCell.swift */; };
+		04D752AA20E065FF00358FE1 /* AssignmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752A620E065FF00358FE1 /* AssignmentTableViewCell.swift */; };
+		04D752AB20E065FF00358FE1 /* RubricTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752A720E065FF00358FE1 /* RubricTableViewCell.swift */; };
+		04D752AC20E065FF00358FE1 /* GradePercentageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752A820E065FF00358FE1 /* GradePercentageTableViewCell.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -145,6 +149,10 @@
 		04D750E920E0293D00358FE1 /* UIPickerFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerFieldDelegate.swift; sourceTree = "<group>"; };
 		04D750EA20E0293D00358FE1 /* Segueable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segueable.swift; sourceTree = "<group>"; };
 		04D750EB20E0293D00358FE1 /* ClassChangesListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassChangesListener.swift; sourceTree = "<group>"; };
+		04D752A520E065FE00358FE1 /* ClassTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTableViewCell.swift; sourceTree = "<group>"; };
+		04D752A620E065FF00358FE1 /* AssignmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentTableViewCell.swift; sourceTree = "<group>"; };
+		04D752A720E065FF00358FE1 /* RubricTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubricTableViewCell.swift; sourceTree = "<group>"; };
+		04D752A820E065FF00358FE1 /* GradePercentageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradePercentageTableViewCell.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -239,6 +247,7 @@
 		0488775320D22AA000815442 /* Custom Controls */ = {
 			isa = PBXGroup;
 			children = (
+				04D752A420E065D000358FE1 /* Cells */,
 			);
 			path = "Custom Controls";
 			sourceTree = "<group>";
@@ -379,6 +388,17 @@
 				04D750C420E0240800358FE1 /* GPACalculation.swift */,
 			);
 			path = GPA;
+			sourceTree = "<group>";
+		};
+		04D752A420E065D000358FE1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04D752A620E065FF00358FE1 /* AssignmentTableViewCell.swift */,
+				04D752A520E065FE00358FE1 /* ClassTableViewCell.swift */,
+				04D752A820E065FF00358FE1 /* GradePercentageTableViewCell.swift */,
+				04D752A720E065FF00358FE1 /* RubricTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		1931CBB3CFAB92A052E0BE67 /* Pods */ = {
@@ -577,6 +597,7 @@
 			files = (
 				04D750D920E0278500358FE1 /* UIApplicationShortcutItem+QuickActionID.swift in Sources */,
 				04D750EF20E0293D00358FE1 /* UIPickerFieldDelegate.swift in Sources */,
+				04D752A920E065FF00358FE1 /* ClassTableViewCell.swift in Sources */,
 				04D750C920E026B500358FE1 /* Int+Random.swift in Sources */,
 				04D750C720E0261900358FE1 /* UIColor+Extension.swift in Sources */,
 				04D750EE20E0293D00358FE1 /* UIRubricViewDelegate.swift in Sources */,
@@ -594,6 +615,7 @@
 				04D750EC20E0293D00358FE1 /* AssignmentChangesListener.swift in Sources */,
 				04D750ED20E0293D00358FE1 /* UIPickerFieldDataSource.swift in Sources */,
 				04D750BF20E023A300358FE1 /* DatabaseManager.swift in Sources */,
+				04D752AB20E065FF00358FE1 /* RubricTableViewCell.swift in Sources */,
 				0484B3F020C4EED100D2989B /* AppDelegate.swift in Sources */,
 				04D750A120E01F7100358FE1 /* ClassesTableViewController.swift in Sources */,
 				04D750AB20E0219600358FE1 /* GradeRubric.swift in Sources */,
@@ -606,6 +628,7 @@
 				04D750CD20E026DC00358FE1 /* String+Extension.swift in Sources */,
 				04D750DD20E027B200358FE1 /* UIViewController+StatusBarFix.swift in Sources */,
 				04D750BB20E0220600358FE1 /* AppInfo.swift in Sources */,
+				04D752AA20E065FF00358FE1 /* AssignmentTableViewCell.swift in Sources */,
 				04D750C320E023F900358FE1 /* GPARubric.swift in Sources */,
 				04D750C120E023EE00358FE1 /* GPAScale.swift in Sources */,
 				04D750D720E0275A00358FE1 /* CGFloat+ToRads.swift in Sources */,
@@ -615,6 +638,7 @@
 				04D750B120E021C200358FE1 /* Assignment.swift in Sources */,
 				04D750BD20E0239400358FE1 /* RatingManager.swift in Sources */,
 				04D750AF20E021B400358FE1 /* Rubric.swift in Sources */,
+				04D752AC20E065FF00358FE1 /* GradePercentageTableViewCell.swift in Sources */,
 				04D750F120E0293D00358FE1 /* ClassChangesListener.swift in Sources */,
 				04D750E520E028AF00358FE1 /* UIRubricViewState.swift in Sources */,
 			);
