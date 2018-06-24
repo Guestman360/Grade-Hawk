@@ -1,0 +1,51 @@
+//
+//  ClassType.swift
+//  Grade Hawk
+//
+//  Created by Matt Guest on 6/24/18.
+//  Copyright © 2018 AlphaApplications. All rights reserved.
+//
+
+import Foundation
+
+/// The type of the GPA Scale
+@objc enum ClassType: Int {
+    // College students only have college option, highschool students have all options
+    case regular = 1
+    case honors = 2
+    case ap = 3
+    case ib = 4
+    case college = 5
+    
+    /// Convenience function which returns a name to associate with a case in the enum
+    func name() -> String {
+        switch self {
+        case .regular:
+            return "Regular"
+        case .honors:
+            return "Honors"
+        case .ap:
+            return "AP"
+        case .ib:
+            return "IB"
+        case .college:
+            return "College"
+        }
+    }
+    
+    /// Returns the amount of additional grade points awarded, for specific class type
+    func additionalGradePoints() -> Double {
+        switch self {
+        case .regular:
+            return 0.0
+        case .honors:
+            return 0.5
+        case .ap:
+            return 1.0
+        case .ib:
+            return 1.0
+        case .college:
+            return 1.0
+        }
+    }
+}
