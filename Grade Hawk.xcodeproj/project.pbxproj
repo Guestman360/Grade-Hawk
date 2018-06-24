@@ -37,6 +37,7 @@
 		04D750C120E023EE00358FE1 /* GPAScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750C020E023EE00358FE1 /* GPAScale.swift */; };
 		04D750C320E023F900358FE1 /* GPARubric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750C220E023F900358FE1 /* GPARubric.swift */; };
 		04D750C520E0240800358FE1 /* GPACalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750C420E0240800358FE1 /* GPACalculation.swift */; };
+		04D750C720E0261900358FE1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750C620E0261900358FE1 /* UIColor+Extension.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -101,6 +102,7 @@
 		04D750C020E023EE00358FE1 /* GPAScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAScale.swift; sourceTree = "<group>"; };
 		04D750C220E023F900358FE1 /* GPARubric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPARubric.swift; sourceTree = "<group>"; };
 		04D750C420E0240800358FE1 /* GPACalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACalculation.swift; sourceTree = "<group>"; };
+		04D750C620E0261900358FE1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 		0488775720D22AE500815442 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				04D750C620E0261900358FE1 /* UIColor+Extension.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D750C720E0261900358FE1 /* UIColor+Extension.swift in Sources */,
 				04D750B720E021ED00358FE1 /* ClassGradeType.swift in Sources */,
 				04D750A320E0201D00358FE1 /* ApplicationTheme.swift in Sources */,
 				04D750B920E021F700358FE1 /* Class.swift in Sources */,
