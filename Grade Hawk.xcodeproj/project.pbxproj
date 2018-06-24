@@ -65,6 +65,8 @@
 		04D752AC20E065FF00358FE1 /* GradePercentageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752A820E065FF00358FE1 /* GradePercentageTableViewCell.swift */; };
 		04D752B220E0670100358FE1 /* UIBlurAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752B020E0670100358FE1 /* UIBlurAlertView.swift */; };
 		04D752B320E0670100358FE1 /* UIBlurAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752B120E0670100358FE1 /* UIBlurAlertController.swift */; };
+		04D752B620E0678D00358FE1 /* UISafeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752B420E0678C00358FE1 /* UISafeTextField.swift */; };
+		04D752B720E0678D00358FE1 /* UISafeTextFieldConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752B520E0678C00358FE1 /* UISafeTextFieldConfigurations.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -157,6 +159,8 @@
 		04D752A820E065FF00358FE1 /* GradePercentageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradePercentageTableViewCell.swift; sourceTree = "<group>"; };
 		04D752B020E0670100358FE1 /* UIBlurAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBlurAlertView.swift; sourceTree = "<group>"; };
 		04D752B120E0670100358FE1 /* UIBlurAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBlurAlertController.swift; sourceTree = "<group>"; };
+		04D752B420E0678C00358FE1 /* UISafeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISafeTextField.swift; sourceTree = "<group>"; };
+		04D752B520E0678C00358FE1 /* UISafeTextFieldConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISafeTextFieldConfigurations.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -420,6 +424,8 @@
 		04D752AE20E066DA00358FE1 /* UISafeTextField */ = {
 			isa = PBXGroup;
 			children = (
+				04D752B420E0678C00358FE1 /* UISafeTextField.swift */,
+				04D752B520E0678C00358FE1 /* UISafeTextFieldConfigurations.swift */,
 			);
 			path = UISafeTextField;
 			sourceTree = "<group>";
@@ -652,7 +658,9 @@
 				04D750AB20E0219600358FE1 /* GradeRubric.swift in Sources */,
 				0488775B20D22C4400815442 /* Constants.swift in Sources */,
 				04D750B520E021DB00358FE1 /* ClassType.swift in Sources */,
+				04D752B620E0678D00358FE1 /* UISafeTextField.swift in Sources */,
 				04D750C520E0240800358FE1 /* GPACalculation.swift in Sources */,
+				04D752B720E0678D00358FE1 /* UISafeTextFieldConfigurations.swift in Sources */,
 				04D750A520E020AE00358FE1 /* RealmTableView.swift in Sources */,
 				04D750F020E0293D00358FE1 /* Segueable.swift in Sources */,
 				04D750A920E0216A00358FE1 /* GradePercentage.swift in Sources */,
