@@ -84,3 +84,7 @@ let kThemeUpdatedNotification = Notification.Name("com.matthewguest.GradeHawk.th
 // Custom URL's
 let kGradePointOpenURL = URL(string: "gradePoint://com.matthewguest.GradeHawk.open")!
 let kEmptyWidgetActionURL = URL(string: "gradePoint://com.matthewguest.GradeHawk.emptyWidgetAction")!
+
+// Misc.
+let kContactEmail = "matthewguest.dev@gmail.com"
+let kGradePointGroupId = "group.com.matthewguest.GradeHawk"

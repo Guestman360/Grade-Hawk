@@ -1,0 +1,30 @@
+//
+//  GPARubric.swift
+//  Grade Hawk
+//
+//  Created by Matt Guest on 6/24/18.
+//  Copyright © 2018 AlphaApplications. All rights reserved.
+//
+
+import Foundation
+import RealmSwift
+
+/// The GPA Rubric class, has grade letter and grade points property
+class GPARubric: Object {
+    @objc dynamic var id = UUID().uuidString
+    /// The letter grade, such as "A+"
+    @objc dynamic var gradeLetter: String = ""
+    /// The amount of grade points for this grade, such as 4.0
+    @objc dynamic var gradePoints: Double = 0.0
+    
+    convenience init(gradeLetter: String, gradePoints: Double) {
+        self.init()
+        self.gradeLetter = gradeLetter
+        self.gradePoints = gradePoints
+    }
+    
+    // MARK: - Overrides
+    override class func primaryKey() -> String? {
+        return "id"
+    }
+}
