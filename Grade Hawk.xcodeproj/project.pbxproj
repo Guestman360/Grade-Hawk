@@ -19,6 +19,7 @@
 		04D7509820E01D1E00358FE1 /* Calculators.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7509220E01D1E00358FE1 /* Calculators.storyboard */; };
 		04D7509920E01D1E00358FE1 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7509320E01D1E00358FE1 /* Settings.storyboard */; };
 		04D7509A20E01D1E00358FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7509420E01D1E00358FE1 /* Main.storyboard */; };
+		04D750A120E01F7100358FE1 /* ClassesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D750A020E01F7100358FE1 /* ClassesTableViewController.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		04D7509220E01D1E00358FE1 /* Calculators.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculators.storyboard; sourceTree = "<group>"; };
 		04D7509320E01D1E00358FE1 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		04D7509420E01D1E00358FE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04D750A020E01F7100358FE1 /* ClassesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewController.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +168,11 @@
 		0488775420D22AC300815442 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				04D7509F20E01F5000358FE1 /* Class */,
+				04D7509E20E01F4900358FE1 /* Assignment */,
+				04D7509D20E01F4000358FE1 /* Settings */,
+				04D7509C20E01F3900358FE1 /* Onboarding */,
+				04D7509B20E01F2900358FE1 /* Calculators */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -203,6 +210,42 @@
 			children = (
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		04D7509B20E01F2900358FE1 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		04D7509C20E01F3900358FE1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		04D7509D20E01F4000358FE1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		04D7509E20E01F4900358FE1 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		04D7509F20E01F5000358FE1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				04D750A020E01F7100358FE1 /* ClassesTableViewController.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		1931CBB3CFAB92A052E0BE67 /* Pods */ = {
@@ -400,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0484B3F020C4EED100D2989B /* AppDelegate.swift in Sources */,
+				04D750A120E01F7100358FE1 /* ClassesTableViewController.swift in Sources */,
 				0488775B20D22C4400815442 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
