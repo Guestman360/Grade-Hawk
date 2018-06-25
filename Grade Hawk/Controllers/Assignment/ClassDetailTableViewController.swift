@@ -11,7 +11,6 @@ import RealmSwift
 import UIEmptyState
 import UICircularProgressRing
 import LPSnackbar
-import GoogleMobileAds
 
 class ClassDetailTableViewController: UITableViewController, RealmTableView {
     // Conformance to RealmTableView protocol
@@ -27,10 +26,10 @@ class ClassDetailTableViewController: UITableViewController, RealmTableView {
         set { assignmentDeletionQueue = newValue }
     }
 
-    var preferedSnackbarBottomSpacing: CGFloat {
-        let bannerHeight = self.bannerAdView.isHidden || GradePointPremium.isPurchased ? 0 : self.bannerAdView.frame.height
-        return self.tabBarController!.tabBar.frame.height + bannerHeight + 12
-    }
+//    var preferedSnackbarBottomSpacing: CGFloat {
+//        let bannerHeight = self.bannerAdView.isHidden || GradePointPremium.isPurchased ? 0 : self.bannerAdView.frame.height
+//        return self.tabBarController!.tabBar.frame.height + bannerHeight + 12
+//    }
 
     // MARK: Subviews
 
@@ -64,16 +63,16 @@ class ClassDetailTableViewController: UITableViewController, RealmTableView {
     public weak var classListener: ClassChangesListener? = nil
 
     /// The Google AdMob view
-    private lazy var bannerAdView: GADBannerView = {
-        let view = GADBannerView()
-        view.adUnitID = kAdMobBannerId
-        view.adSize = kGADAdSizeSmartBannerPortrait
-        view.rootViewController = self
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.delegate = self
-        view.alpha = 0.0
-        return view
-    }()
+//    private lazy var bannerAdView: GADBannerView = {
+//        let view = GADBannerView()
+//        view.adUnitID = kAdMobBannerId
+//        view.adSize = kGADAdSizeSmartBannerPortrait
+//        view.rootViewController = self
+//        view.translatesAutoresizingMaskIntoConstraints = false
+//        view.delegate = self
+//        view.alpha = 0.0
+//        return view
+//    }()
 
     // MARK: View Handleing Methods
 
@@ -259,28 +258,28 @@ class ClassDetailTableViewController: UITableViewController, RealmTableView {
     }
 
     /// Adds a google ad mob banner view
-    private func addBannerView() {
-        // Add banner ad view
-        self.tableView.tableFooterView = self.bannerAdView
-        // Banner view constraints
-        if #available(iOS 11.0, *) {
-            let guide = self.view.safeAreaLayoutGuide
-            NSLayoutConstraint.activate([
-                guide.leftAnchor.constraint(equalTo: self.bannerAdView.leftAnchor),
-                guide.rightAnchor.constraint(equalTo: self.bannerAdView.rightAnchor),
-                guide.bottomAnchor.constraint(equalTo: self.bannerAdView.bottomAnchor)
-                ])
-        } else {
-            self.view.addConstraints(
-                [NSLayoutConstraint(item: self.bannerAdView, attribute: .bottom, relatedBy: .equal,
-                                    toItem: self.bottomLayoutGuide, attribute: .top, multiplier: 1, constant: 0),
-                 NSLayoutConstraint(item: self.bannerAdView, attribute: .centerX, relatedBy: .equal,
-                                    toItem: self.view, attribute: .centerX, multiplier: 1, constant: 0)
-                ])
-        }
-
-        self.bannerAdView.load(kAdMobAdRequest)
-    }
+//    private func addBannerView() {
+//        // Add banner ad view
+//        self.tableView.tableFooterView = self.bannerAdView
+//        // Banner view constraints
+//        if #available(iOS 11.0, *) {
+//            let guide = self.view.safeAreaLayoutGuide
+//            NSLayoutConstraint.activate([
+//                guide.leftAnchor.constraint(equalTo: self.bannerAdView.leftAnchor),
+//                guide.rightAnchor.constraint(equalTo: self.bannerAdView.rightAnchor),
+//                guide.bottomAnchor.constraint(equalTo: self.bannerAdView.bottomAnchor)
+//                ])
+//        } else {
+//            self.view.addConstraints(
+//                [NSLayoutConstraint(item: self.bannerAdView, attribute: .bottom, relatedBy: .equal,
+//                                    toItem: self.bottomLayoutGuide, attribute: .top, multiplier: 1, constant: 0),
+//                 NSLayoutConstraint(item: self.bannerAdView, attribute: .centerX, relatedBy: .equal,
+//                                    toItem: self.view, attribute: .centerX, multiplier: 1, constant: 0)
+//                ])
+//        }
+//
+//        //self.bannerAdView.load(kAdMobAdRequest)
+//    }
 
     /// Updates the progress on the progress ring
     private func updateProgressRing() {
@@ -503,14 +502,14 @@ extension ClassDetailTableViewController: Segueable {
 
 // MARK: Google Ad View delegate
 
-extension ClassDetailTableViewController: GADBannerViewDelegate {
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        self.bannerAdView.alpha = 0.0
-        UIView.animate(withDuration: 0.6) {
-            self.bannerAdView.alpha = 1.0
-        }
-    }
-}
+//extension ClassDetailTableViewController: GADBannerViewDelegate {
+//    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+//        self.bannerAdView.alpha = 0.0
+//        UIView.animate(withDuration: 0.6) {
+//            self.bannerAdView.alpha = 1.0
+//        }
+//    }
+//}
 
 // MARK: Notification Methods
 

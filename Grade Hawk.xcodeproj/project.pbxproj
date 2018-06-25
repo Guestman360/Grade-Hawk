@@ -81,6 +81,12 @@
 		04D752D320E06F5F00358FE1 /* ClassDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D020E06F5E00358FE1 /* ClassDetailTableViewController.swift */; };
 		04D752D420E06F5F00358FE1 /* ClassPeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D120E06F5E00358FE1 /* ClassPeekViewController.swift */; };
 		04D752D520E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D220E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift */; };
+		04D752DC20E0734900358FE1 /* GradePercentagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D620E0734800358FE1 /* GradePercentagesTableViewController.swift */; };
+		04D752DD20E0734900358FE1 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D720E0734800358FE1 /* SettingsTableViewController.swift */; };
+		04D752DE20E0734900358FE1 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D820E0734900358FE1 /* LicenseViewController.swift */; };
+		04D752DF20E0734900358FE1 /* SemesterConfigurationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D920E0734900358FE1 /* SemesterConfigurationTableViewController.swift */; };
+		04D752E020E0734900358FE1 /* ThemeSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752DA20E0734900358FE1 /* ThemeSelectionTableViewController.swift */; };
+		04D752E120E0734900358FE1 /* CustomRubricSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752DB20E0734900358FE1 /* CustomRubricSettingTableViewController.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -189,6 +195,12 @@
 		04D752D020E06F5E00358FE1 /* ClassDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDetailTableViewController.swift; sourceTree = "<group>"; };
 		04D752D120E06F5E00358FE1 /* ClassPeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassPeekViewController.swift; sourceTree = "<group>"; };
 		04D752D220E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditAssignmentTableViewController.swift; sourceTree = "<group>"; };
+		04D752D620E0734800358FE1 /* GradePercentagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradePercentagesTableViewController.swift; sourceTree = "<group>"; };
+		04D752D720E0734800358FE1 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		04D752D820E0734900358FE1 /* LicenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		04D752D920E0734900358FE1 /* SemesterConfigurationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterConfigurationTableViewController.swift; sourceTree = "<group>"; };
+		04D752DA20E0734900358FE1 /* ThemeSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSelectionTableViewController.swift; sourceTree = "<group>"; };
+		04D752DB20E0734900358FE1 /* CustomRubricSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRubricSettingTableViewController.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -390,6 +402,12 @@
 		04D7509D20E01F4000358FE1 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				04D752DB20E0734900358FE1 /* CustomRubricSettingTableViewController.swift */,
+				04D752D620E0734800358FE1 /* GradePercentagesTableViewController.swift */,
+				04D752D820E0734900358FE1 /* LicenseViewController.swift */,
+				04D752D920E0734900358FE1 /* SemesterConfigurationTableViewController.swift */,
+				04D752D720E0734800358FE1 /* SettingsTableViewController.swift */,
+				04D752DA20E0734900358FE1 /* ThemeSelectionTableViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -687,6 +705,7 @@
 				04D750E420E028AF00358FE1 /* AlertType.swift in Sources */,
 				04D752C520E06B5D00358FE1 /* UIRubricView.swift in Sources */,
 				04D750A320E0201D00358FE1 /* ApplicationTheme.swift in Sources */,
+				04D752DD20E0734900358FE1 /* SettingsTableViewController.swift in Sources */,
 				04D750CF20E026F300358FE1 /* UIViewController+Alert.swift in Sources */,
 				04D750D320E0272C00358FE1 /* UIButton+PulseAnimation.swift in Sources */,
 				04D752C920E06B5D00358FE1 /* UIPickerField.swift in Sources */,
@@ -716,6 +735,7 @@
 				04D750A920E0216A00358FE1 /* GradePercentage.swift in Sources */,
 				04D752BA20E067D500358FE1 /* UICalculateViewController.swift in Sources */,
 				04D750CD20E026DC00358FE1 /* String+Extension.swift in Sources */,
+				04D752E020E0734900358FE1 /* ThemeSelectionTableViewController.swift in Sources */,
 				04D750DD20E027B200358FE1 /* UIViewController+StatusBarFix.swift in Sources */,
 				04D750BB20E0220600358FE1 /* AppInfo.swift in Sources */,
 				04D752AA20E065FF00358FE1 /* AssignmentTableViewCell.swift in Sources */,
@@ -724,6 +744,8 @@
 				04D752C720E06B5D00358FE1 /* UIGPAView.swift in Sources */,
 				04D752CA20E06B5D00358FE1 /* ClassCellHeaderView.swift in Sources */,
 				04D750C120E023EE00358FE1 /* GPAScale.swift in Sources */,
+				04D752DF20E0734900358FE1 /* SemesterConfigurationTableViewController.swift in Sources */,
+				04D752DC20E0734900358FE1 /* GradePercentagesTableViewController.swift in Sources */,
 				04D750D720E0275A00358FE1 /* CGFloat+ToRads.swift in Sources */,
 				04D752D320E06F5F00358FE1 /* ClassDetailTableViewController.swift in Sources */,
 				04D750E220E028AF00358FE1 /* QuickActionId.swift in Sources */,
@@ -731,10 +753,12 @@
 				04D750D120E0271800358FE1 /* UIButton+Handler.swift in Sources */,
 				04D750B120E021C200358FE1 /* Assignment.swift in Sources */,
 				04D752B220E0670100358FE1 /* UIBlurAlertView.swift in Sources */,
+				04D752E120E0734900358FE1 /* CustomRubricSettingTableViewController.swift in Sources */,
 				04D750BD20E0239400358FE1 /* RatingManager.swift in Sources */,
 				04D750AF20E021B400358FE1 /* Rubric.swift in Sources */,
 				04D752AC20E065FF00358FE1 /* GradePercentageTableViewCell.swift in Sources */,
 				04D750F120E0293D00358FE1 /* ClassChangesListener.swift in Sources */,
+				04D752DE20E0734900358FE1 /* LicenseViewController.swift in Sources */,
 				04D752D420E06F5F00358FE1 /* ClassPeekViewController.swift in Sources */,
 				04D750E520E028AF00358FE1 /* UIRubricViewState.swift in Sources */,
 			);
