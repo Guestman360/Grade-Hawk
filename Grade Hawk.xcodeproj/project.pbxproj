@@ -69,6 +69,15 @@
 		04D752B720E0678D00358FE1 /* UISafeTextFieldConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752B520E0678C00358FE1 /* UISafeTextFieldConfigurations.swift */; };
 		04D752BA20E067D500358FE1 /* UICalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752B820E067D500358FE1 /* UICalculateViewController.swift */; };
 		04D752BB20E067D500358FE1 /* UICalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752B920E067D500358FE1 /* UICalculateView.swift */; };
+		04D752C420E06B5D00358FE1 /* UIFloatingPromptTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752BC20E06B5B00358FE1 /* UIFloatingPromptTextField.swift */; };
+		04D752C520E06B5D00358FE1 /* UIRubricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752BD20E06B5B00358FE1 /* UIRubricView.swift */; };
+		04D752C620E06B5D00358FE1 /* UIBlurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752BE20E06B5C00358FE1 /* UIBlurViewController.swift */; };
+		04D752C720E06B5D00358FE1 /* UIGPAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752BF20E06B5C00358FE1 /* UIGPAView.swift */; };
+		04D752C820E06B5D00358FE1 /* UIGradePercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752C020E06B5C00358FE1 /* UIGradePercentageView.swift */; };
+		04D752C920E06B5D00358FE1 /* UIPickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752C120E06B5C00358FE1 /* UIPickerField.swift */; };
+		04D752CA20E06B5D00358FE1 /* ClassCellHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752C220E06B5D00358FE1 /* ClassCellHeaderView.swift */; };
+		04D752CE20E06ED200358FE1 /* PreviousClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752CC20E06ED200358FE1 /* PreviousClassDetailViewController.swift */; };
+		04D752CF20E06ED200358FE1 /* AddEditClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752CD20E06ED200358FE1 /* AddEditClassViewController.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -165,6 +174,15 @@
 		04D752B520E0678C00358FE1 /* UISafeTextFieldConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISafeTextFieldConfigurations.swift; sourceTree = "<group>"; };
 		04D752B820E067D500358FE1 /* UICalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICalculateViewController.swift; sourceTree = "<group>"; };
 		04D752B920E067D500358FE1 /* UICalculateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICalculateView.swift; sourceTree = "<group>"; };
+		04D752BC20E06B5B00358FE1 /* UIFloatingPromptTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFloatingPromptTextField.swift; sourceTree = "<group>"; };
+		04D752BD20E06B5B00358FE1 /* UIRubricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRubricView.swift; sourceTree = "<group>"; };
+		04D752BE20E06B5C00358FE1 /* UIBlurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBlurViewController.swift; sourceTree = "<group>"; };
+		04D752BF20E06B5C00358FE1 /* UIGPAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGPAView.swift; sourceTree = "<group>"; };
+		04D752C020E06B5C00358FE1 /* UIGradePercentageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGradePercentageView.swift; sourceTree = "<group>"; };
+		04D752C120E06B5C00358FE1 /* UIPickerField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerField.swift; sourceTree = "<group>"; };
+		04D752C220E06B5D00358FE1 /* ClassCellHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCellHeaderView.swift; sourceTree = "<group>"; };
+		04D752CC20E06ED200358FE1 /* PreviousClassDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousClassDetailViewController.swift; sourceTree = "<group>"; };
+		04D752CD20E06ED200358FE1 /* AddEditClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditClassViewController.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -259,6 +277,13 @@
 		0488775320D22AA000815442 /* Custom Controls */ = {
 			isa = PBXGroup;
 			children = (
+				04D752C220E06B5D00358FE1 /* ClassCellHeaderView.swift */,
+				04D752BE20E06B5C00358FE1 /* UIBlurViewController.swift */,
+				04D752BC20E06B5B00358FE1 /* UIFloatingPromptTextField.swift */,
+				04D752BF20E06B5C00358FE1 /* UIGPAView.swift */,
+				04D752C020E06B5C00358FE1 /* UIGradePercentageView.swift */,
+				04D752C120E06B5C00358FE1 /* UIPickerField.swift */,
+				04D752BD20E06B5B00358FE1 /* UIRubricView.swift */,
 				04D752AF20E066E800358FE1 /* UICalculateView */,
 				04D752AE20E066DA00358FE1 /* UISafeTextField */,
 				04D752AD20E0669C00358FE1 /* UIBlurAlert */,
@@ -374,6 +399,8 @@
 			isa = PBXGroup;
 			children = (
 				04D750A020E01F7100358FE1 /* ClassesTableViewController.swift */,
+				04D752CD20E06ED200358FE1 /* AddEditClassViewController.swift */,
+				04D752CC20E06ED200358FE1 /* PreviousClassDetailViewController.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -642,23 +669,29 @@
 				04D752A920E065FF00358FE1 /* ClassTableViewCell.swift in Sources */,
 				04D752BB20E067D500358FE1 /* UICalculateView.swift in Sources */,
 				04D750C920E026B500358FE1 /* Int+Random.swift in Sources */,
+				04D752C820E06B5D00358FE1 /* UIGradePercentageView.swift in Sources */,
 				04D750C720E0261900358FE1 /* UIColor+Extension.swift in Sources */,
 				04D750EE20E0293D00358FE1 /* UIRubricViewDelegate.swift in Sources */,
 				04D750E320E028AF00358FE1 /* StudentType.swift in Sources */,
 				04D750B720E021ED00358FE1 /* ClassGradeType.swift in Sources */,
 				04D750CB20E026CA00358FE1 /* UILabel+Resize.swift in Sources */,
 				04D750E420E028AF00358FE1 /* AlertType.swift in Sources */,
+				04D752C520E06B5D00358FE1 /* UIRubricView.swift in Sources */,
 				04D750A320E0201D00358FE1 /* ApplicationTheme.swift in Sources */,
 				04D750CF20E026F300358FE1 /* UIViewController+Alert.swift in Sources */,
 				04D750D320E0272C00358FE1 /* UIButton+PulseAnimation.swift in Sources */,
+				04D752C920E06B5D00358FE1 /* UIPickerField.swift in Sources */,
 				04D750D520E0273E00358FE1 /* Double+Round.swift in Sources */,
 				04D750DB20E0279B00358FE1 /* Array+Extensions.swift in Sources */,
 				04D750B920E021F700358FE1 /* Class.swift in Sources */,
 				04D750AD20E021A900358FE1 /* Semester.swift in Sources */,
 				04D750EC20E0293D00358FE1 /* AssignmentChangesListener.swift in Sources */,
+				04D752C420E06B5D00358FE1 /* UIFloatingPromptTextField.swift in Sources */,
 				04D750ED20E0293D00358FE1 /* UIPickerFieldDataSource.swift in Sources */,
+				04D752C620E06B5D00358FE1 /* UIBlurViewController.swift in Sources */,
 				04D750BF20E023A300358FE1 /* DatabaseManager.swift in Sources */,
 				04D752AB20E065FF00358FE1 /* RubricTableViewCell.swift in Sources */,
+				04D752CE20E06ED200358FE1 /* PreviousClassDetailViewController.swift in Sources */,
 				04D752B320E0670100358FE1 /* UIBlurAlertController.swift in Sources */,
 				0484B3F020C4EED100D2989B /* AppDelegate.swift in Sources */,
 				04D750A120E01F7100358FE1 /* ClassesTableViewController.swift in Sources */,
@@ -677,6 +710,9 @@
 				04D750BB20E0220600358FE1 /* AppInfo.swift in Sources */,
 				04D752AA20E065FF00358FE1 /* AssignmentTableViewCell.swift in Sources */,
 				04D750C320E023F900358FE1 /* GPARubric.swift in Sources */,
+				04D752CF20E06ED200358FE1 /* AddEditClassViewController.swift in Sources */,
+				04D752C720E06B5D00358FE1 /* UIGPAView.swift in Sources */,
+				04D752CA20E06B5D00358FE1 /* ClassCellHeaderView.swift in Sources */,
 				04D750C120E023EE00358FE1 /* GPAScale.swift in Sources */,
 				04D750D720E0275A00358FE1 /* CGFloat+ToRads.swift in Sources */,
 				04D750E220E028AF00358FE1 /* QuickActionId.swift in Sources */,
