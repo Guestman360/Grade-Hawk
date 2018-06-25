@@ -26,8 +26,8 @@ class ClassesTableViewController: UITableViewController, RealmTableView {
     }
     
     var preferedSnackbarBottomSpacing: CGFloat {
-        let bannerHeight = self.bannerAdView.isHidden || GradePointPremium.isPurchased ? 0 : self.bannerAdView.frame.height
-        return self.tabBarController!.tabBar.frame.height + bannerHeight + 12
+        //let bannerHeight = self.bannerAdView.isHidden || GradePointPremium.isPurchased ? 0 : self.bannerAdView.frame.height
+        return 64.0 //self.tabBarController!.tabBar.frame.height + bannerHeight + 12
     }
     
     // MARK: Properties
@@ -139,7 +139,7 @@ class ClassesTableViewController: UITableViewController, RealmTableView {
         // Get correct layout for AD
         let orientation = UIDevice.current.orientation
         
-        self.updateAdSize(withOrientation: orientation, size: size)
+        //self.updateAdSize(withOrientation: orientation, size: size)
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -188,7 +188,7 @@ class ClassesTableViewController: UITableViewController, RealmTableView {
         header.textLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
         header.textLabel?.textColor = ApplicationTheme.shared.tableViewHeaderTextColor
         // TODO: Figure out real fix for this? Not sure why the banner view is being displayed behind header view
-        self.view.bringSubview(toFront: self.bannerAdView)
+        //self.view.bringSubview(toFront: self.bannerAdView)
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -661,7 +661,7 @@ extension ClassesTableViewController: UIEmptyStateDataSource, UIEmptyStateDelega
         return NSAttributedString(string: "No classes added", attributes: attrs)
     }
     
-    var emptyStateImage: UIImage? { return #imageLiteral(resourceName: "EmptyClassesIcon") }
+    //var emptyStateImage: UIImage? { return #imageLiteral(resourceName: "EmptyClassesIcon") }
     
     var emptyStateImageSize: CGSize? { return CGSize(width: 120, height: 122) }
     
@@ -698,7 +698,7 @@ extension ClassesTableViewController: UIEmptyStateDataSource, UIEmptyStateDelega
         }
         
         // Update ad size
-        self.updateAdSize(withOrientation: UIDevice.current.orientation, size: self.view.frame.size)
+        //self.updateAdSize(withOrientation: UIDevice.current.orientation, size: self.view.frame.size)
     }
     
     func emptyStateViewWillHide(view: UIView) {

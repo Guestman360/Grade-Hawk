@@ -37,27 +37,27 @@ class GradeRubric: Object {
     
     /// Creates a default rubric, if one already exists, wipes it and replaces it with this one.
     public static func createRubric(ofType type: GPAScaleType) {
-        let realm = try! Realm()
-        
-        if realm.objects(GradeRubric.self).count > 0 {
-            DatabaseManager.shared.deleteObjects(realm.objects(GradeRubric.self))
-            DatabaseManager.shared.deleteObjects(realm.objects(GradePercentage.self))
-        }
-        
-        let rubric = GradeRubric()
-        
-        switch type {
-        case .plusScale:
-            rubric.percentages = List(kPlusScaleGradeLetterRanges.enumerated().map {
-                return GradePercentage(lower: $1.lowerBound, upper: $1.upperBound, grade: kPlusScaleLetterGrades[$0])
-            })
-        case .nonPlusScale:
-            rubric.percentages = List(kGradeLetterRanges.enumerated().map {
-                return GradePercentage(lower: $1.lowerBound, upper: $1.upperBound, grade: kLetterGrades[$0])
-            })
-        }
-        
-        DatabaseManager.shared.createObject(GradeRubric.self, value: rubric, update: true)
+//        let realm = try! Realm()
+//        
+//        if realm.objects(GradeRubric.self).count > 0 {
+//            DatabaseManager.shared.deleteObjects(realm.objects(GradeRubric.self))
+//            DatabaseManager.shared.deleteObjects(realm.objects(GradePercentage.self))
+//        }
+//        
+//        let rubric = GradeRubric()
+//        
+//        switch type {
+//        case .plusScale:
+//            rubric.percentages = List(kPlusScaleGradeLetterRanges.enumerated().map {
+//                return GradePercentage(lower: $1.lowerBound, upper: $1.upperBound, grade: kPlusScaleLetterGrades[$0])
+//            })
+//        case .nonPlusScale:
+//            rubric.percentages = List(kGradeLetterRanges.enumerated().map {
+//                return GradePercentage(lower: $1.lowerBound, upper: $1.upperBound, grade: kLetterGrades[$0])
+//            })
+//        }
+//        
+//        DatabaseManager.shared.createObject(GradeRubric.self, value: rubric, update: true)
     }
     
     /// Returns the letter grade for the given percentage score, if possible, other wise returns `nil`

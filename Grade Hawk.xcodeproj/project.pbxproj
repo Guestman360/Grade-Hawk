@@ -217,6 +217,7 @@
 		04D752EC20E07F8500358FE1 /* ExamGradePredictionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamGradePredictionViewController.swift; sourceTree = "<group>"; };
 		04D752ED20E07F8500358FE1 /* CalculatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorsViewController.swift; sourceTree = "<group>"; };
 		04D752EE20E07F8500358FE1 /* GPACalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorViewController.swift; sourceTree = "<group>"; };
+		04D752F220E0846300358FE1 /* Grade Hawk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Grade Hawk.entitlements"; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -270,6 +271,7 @@
 		0484B3EE20C4EED100D2989B /* Grade Hawk */ = {
 			isa = PBXGroup;
 			children = (
+				04D752F220E0846300358FE1 /* Grade Hawk.entitlements */,
 				0484B3EF20C4EED100D2989B /* AppDelegate.swift */,
 				0488775A20D22C4400815442 /* Constants.swift */,
 				0484B3FB20C4EED300D2989B /* Info.plist */,
@@ -595,6 +597,11 @@
 				TargetAttributes = {
 					0484B3EB20C4EED100D2989B = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					0484B3FF20C4EED300D2989B = {
 						CreatedOnToolsVersion = 9.3;
@@ -934,6 +941,7 @@
 			baseConfigurationReference = 45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Grade Hawk/Grade Hawk.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUKPL73RD7;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -957,6 +965,7 @@
 			baseConfigurationReference = C7CA9D92A6423B59E2EEE755 /* Pods-Grade Hawk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Grade Hawk/Grade Hawk.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUKPL73RD7;
 				FRAMEWORK_SEARCH_PATHS = (

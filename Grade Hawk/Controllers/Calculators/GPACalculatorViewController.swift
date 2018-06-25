@@ -222,11 +222,11 @@ class GPACalculatorViewController: UIViewController {
 
         // Completion block for when progress ring is done animation
         let completion: UICircularProgressRingView.ProgressCompletion = { [weak self] in
-            guard let strongSelf = self else { return }
+            //guard let strongSelf = self else { return }
 
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                InterstitialAdController.shared.showAdIfCan(in: strongSelf)
-            }
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+//                InterstitialAdController.shared.showAdIfCan(in: strongSelf)
+//            }
         }
 
         /// Calculation of gpa closure block

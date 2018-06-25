@@ -361,10 +361,10 @@ extension ClassDetailTableViewController: AssignmentChangesListener {
         }
 
         // Show ads after creating assignment if possible
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { [weak self] in
-            guard let strongSelf = self else { return }
-            InterstitialAdController.shared.showAdIfCan(in: strongSelf)
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { [weak self] in
+//            guard let strongSelf = self else { return }
+//            InterstitialAdController.shared.showAdIfCan(in: strongSelf)
+//        }
     }
 
     func assignmentRubricWasUpdated(_ assignment: Assignment, from rubric1: Rubric, to rubric2: Rubric) {
