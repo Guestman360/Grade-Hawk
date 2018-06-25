@@ -26,10 +26,10 @@ class ClassDetailTableViewController: UITableViewController, RealmTableView {
         set { assignmentDeletionQueue = newValue }
     }
 
-//    var preferedSnackbarBottomSpacing: CGFloat {
-//        let bannerHeight = self.bannerAdView.isHidden || GradePointPremium.isPurchased ? 0 : self.bannerAdView.frame.height
-//        return self.tabBarController!.tabBar.frame.height + bannerHeight + 12
-//    }
+    var preferedSnackbarBottomSpacing: CGFloat {
+        //let bannerHeight = self.bannerAdView.isHidden || GradePointPremium.isPurchased ? 0 : self.bannerAdView.frame.height
+        return 64.0 //self.tabBarController!.tabBar.frame.height + bannerHeight + 12
+    }
 
     // MARK: Subviews
 
@@ -98,18 +98,18 @@ class ClassDetailTableViewController: UITableViewController, RealmTableView {
         NotificationCenter.default.addObserver(self, selector: #selector(self.updateUIForThemeChanges(notification:)),
                                                name: kThemeUpdatedNotification, object: nil)
 
-        if !GradePointPremium.isPurchased {
-            self.addBannerView()
-        }
+//        if !GradePointPremium.isPurchased {
+//            self.addBannerView()
+//        }
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // Remove Ads if gradepoint premium was just purchased
-        if GradePointPremium.isPurchased && self.tableView.tableFooterView === self.bannerAdView {
-            self.bannerAdView.removeFromSuperview()
-            self.tableView.tableFooterView = UIView(frame: .zero)
-        }
+//        if GradePointPremium.isPurchased && self.tableView.tableFooterView === self.bannerAdView {
+//            self.bannerAdView.removeFromSuperview()
+//            self.tableView.tableFooterView = UIView(frame: .zero)
+//        }
         self.updateUI()
         self.reloadEmptyState()
     }

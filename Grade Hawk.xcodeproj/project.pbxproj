@@ -87,6 +87,11 @@
 		04D752DF20E0734900358FE1 /* SemesterConfigurationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D920E0734900358FE1 /* SemesterConfigurationTableViewController.swift */; };
 		04D752E020E0734900358FE1 /* ThemeSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752DA20E0734900358FE1 /* ThemeSelectionTableViewController.swift */; };
 		04D752E120E0734900358FE1 /* CustomRubricSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752DB20E0734900358FE1 /* CustomRubricSettingTableViewController.swift */; };
+		04D752E720E07CFF00358FE1 /* Onboard4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752E220E07CFE00358FE1 /* Onboard4ViewController.swift */; };
+		04D752E820E07CFF00358FE1 /* Onboard3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752E320E07CFE00358FE1 /* Onboard3ViewController.swift */; };
+		04D752E920E07CFF00358FE1 /* Onboard1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752E420E07CFF00358FE1 /* Onboard1ViewController.swift */; };
+		04D752EA20E07CFF00358FE1 /* OnboardPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752E520E07CFF00358FE1 /* OnboardPageViewController.swift */; };
+		04D752EB20E07CFF00358FE1 /* Onboard2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752E620E07CFF00358FE1 /* Onboard2ViewController.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -201,6 +206,11 @@
 		04D752D920E0734900358FE1 /* SemesterConfigurationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterConfigurationTableViewController.swift; sourceTree = "<group>"; };
 		04D752DA20E0734900358FE1 /* ThemeSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSelectionTableViewController.swift; sourceTree = "<group>"; };
 		04D752DB20E0734900358FE1 /* CustomRubricSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRubricSettingTableViewController.swift; sourceTree = "<group>"; };
+		04D752E220E07CFE00358FE1 /* Onboard4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboard4ViewController.swift; sourceTree = "<group>"; };
+		04D752E320E07CFE00358FE1 /* Onboard3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboard3ViewController.swift; sourceTree = "<group>"; };
+		04D752E420E07CFF00358FE1 /* Onboard1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboard1ViewController.swift; sourceTree = "<group>"; };
+		04D752E520E07CFF00358FE1 /* OnboardPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardPageViewController.swift; sourceTree = "<group>"; };
+		04D752E620E07CFF00358FE1 /* Onboard2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboard2ViewController.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -395,6 +405,11 @@
 		04D7509C20E01F3900358FE1 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				04D752E420E07CFF00358FE1 /* Onboard1ViewController.swift */,
+				04D752E620E07CFF00358FE1 /* Onboard2ViewController.swift */,
+				04D752E320E07CFE00358FE1 /* Onboard3ViewController.swift */,
+				04D752E220E07CFE00358FE1 /* Onboard4ViewController.swift */,
+				04D752E520E07CFF00358FE1 /* OnboardPageViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -696,6 +711,7 @@
 				04D752A920E065FF00358FE1 /* ClassTableViewCell.swift in Sources */,
 				04D752BB20E067D500358FE1 /* UICalculateView.swift in Sources */,
 				04D750C920E026B500358FE1 /* Int+Random.swift in Sources */,
+				04D752E720E07CFF00358FE1 /* Onboard4ViewController.swift in Sources */,
 				04D752C820E06B5D00358FE1 /* UIGradePercentageView.swift in Sources */,
 				04D750C720E0261900358FE1 /* UIColor+Extension.swift in Sources */,
 				04D750EE20E0293D00358FE1 /* UIRubricViewDelegate.swift in Sources */,
@@ -704,6 +720,7 @@
 				04D750CB20E026CA00358FE1 /* UILabel+Resize.swift in Sources */,
 				04D750E420E028AF00358FE1 /* AlertType.swift in Sources */,
 				04D752C520E06B5D00358FE1 /* UIRubricView.swift in Sources */,
+				04D752EB20E07CFF00358FE1 /* Onboard2ViewController.swift in Sources */,
 				04D750A320E0201D00358FE1 /* ApplicationTheme.swift in Sources */,
 				04D752DD20E0734900358FE1 /* SettingsTableViewController.swift in Sources */,
 				04D750CF20E026F300358FE1 /* UIViewController+Alert.swift in Sources */,
@@ -712,6 +729,7 @@
 				04D750D520E0273E00358FE1 /* Double+Round.swift in Sources */,
 				04D750DB20E0279B00358FE1 /* Array+Extensions.swift in Sources */,
 				04D750B920E021F700358FE1 /* Class.swift in Sources */,
+				04D752E820E07CFF00358FE1 /* Onboard3ViewController.swift in Sources */,
 				04D752D520E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift in Sources */,
 				04D750AD20E021A900358FE1 /* Semester.swift in Sources */,
 				04D750EC20E0293D00358FE1 /* AssignmentChangesListener.swift in Sources */,
@@ -720,11 +738,13 @@
 				04D752C620E06B5D00358FE1 /* UIBlurViewController.swift in Sources */,
 				04D750BF20E023A300358FE1 /* DatabaseManager.swift in Sources */,
 				04D752AB20E065FF00358FE1 /* RubricTableViewCell.swift in Sources */,
+				04D752EA20E07CFF00358FE1 /* OnboardPageViewController.swift in Sources */,
 				04D752CE20E06ED200358FE1 /* PreviousClassDetailViewController.swift in Sources */,
 				04D752B320E0670100358FE1 /* UIBlurAlertController.swift in Sources */,
 				0484B3F020C4EED100D2989B /* AppDelegate.swift in Sources */,
 				04D750A120E01F7100358FE1 /* ClassesTableViewController.swift in Sources */,
 				04D750AB20E0219600358FE1 /* GradeRubric.swift in Sources */,
+				04D752E920E07CFF00358FE1 /* Onboard1ViewController.swift in Sources */,
 				0488775B20D22C4400815442 /* Constants.swift in Sources */,
 				04D750B520E021DB00358FE1 /* ClassType.swift in Sources */,
 				04D752B620E0678D00358FE1 /* UISafeTextField.swift in Sources */,
