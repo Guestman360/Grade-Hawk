@@ -78,6 +78,9 @@
 		04D752CA20E06B5D00358FE1 /* ClassCellHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752C220E06B5D00358FE1 /* ClassCellHeaderView.swift */; };
 		04D752CE20E06ED200358FE1 /* PreviousClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752CC20E06ED200358FE1 /* PreviousClassDetailViewController.swift */; };
 		04D752CF20E06ED200358FE1 /* AddEditClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752CD20E06ED200358FE1 /* AddEditClassViewController.swift */; };
+		04D752D320E06F5F00358FE1 /* ClassDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D020E06F5E00358FE1 /* ClassDetailTableViewController.swift */; };
+		04D752D420E06F5F00358FE1 /* ClassPeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D120E06F5E00358FE1 /* ClassPeekViewController.swift */; };
+		04D752D520E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D752D220E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift */; };
 		C99DD0EEC62F63C671E1083B /* Pods_Grade_Hawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB30CBB367DA35CC85556F4 /* Pods_Grade_Hawk.framework */; };
 		F7F35ED90A44934C079A720A /* Pods_Grade_HawkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */; };
 /* End PBXBuildFile section */
@@ -183,6 +186,9 @@
 		04D752C220E06B5D00358FE1 /* ClassCellHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCellHeaderView.swift; sourceTree = "<group>"; };
 		04D752CC20E06ED200358FE1 /* PreviousClassDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousClassDetailViewController.swift; sourceTree = "<group>"; };
 		04D752CD20E06ED200358FE1 /* AddEditClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditClassViewController.swift; sourceTree = "<group>"; };
+		04D752D020E06F5E00358FE1 /* ClassDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDetailTableViewController.swift; sourceTree = "<group>"; };
+		04D752D120E06F5E00358FE1 /* ClassPeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassPeekViewController.swift; sourceTree = "<group>"; };
+		04D752D220E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditAssignmentTableViewController.swift; sourceTree = "<group>"; };
 		2DB4BB712C5A4A648A79E13E /* Pods_Grade_HawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grade_HawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF3671DAC2327056C455ED /* Pods-Grade Hawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade Hawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grade Hawk/Pods-Grade Hawk.debug.xcconfig"; sourceTree = "<group>"; };
 		475A95D7D956FB82F9707993 /* Pods-Grade HawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grade HawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grade HawkTests/Pods-Grade HawkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -391,6 +397,9 @@
 		04D7509E20E01F4900358FE1 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				04D752D220E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift */,
+				04D752D020E06F5E00358FE1 /* ClassDetailTableViewController.swift */,
+				04D752D120E06F5E00358FE1 /* ClassPeekViewController.swift */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -684,6 +693,7 @@
 				04D750D520E0273E00358FE1 /* Double+Round.swift in Sources */,
 				04D750DB20E0279B00358FE1 /* Array+Extensions.swift in Sources */,
 				04D750B920E021F700358FE1 /* Class.swift in Sources */,
+				04D752D520E06F5F00358FE1 /* AddEditAssignmentTableViewController.swift in Sources */,
 				04D750AD20E021A900358FE1 /* Semester.swift in Sources */,
 				04D750EC20E0293D00358FE1 /* AssignmentChangesListener.swift in Sources */,
 				04D752C420E06B5D00358FE1 /* UIFloatingPromptTextField.swift in Sources */,
@@ -715,6 +725,7 @@
 				04D752CA20E06B5D00358FE1 /* ClassCellHeaderView.swift in Sources */,
 				04D750C120E023EE00358FE1 /* GPAScale.swift in Sources */,
 				04D750D720E0275A00358FE1 /* CGFloat+ToRads.swift in Sources */,
+				04D752D320E06F5F00358FE1 /* ClassDetailTableViewController.swift in Sources */,
 				04D750E220E028AF00358FE1 /* QuickActionId.swift in Sources */,
 				04D750B320E021CB00358FE1 /* Grade.swift in Sources */,
 				04D750D120E0271800358FE1 /* UIButton+Handler.swift in Sources */,
@@ -724,6 +735,7 @@
 				04D750AF20E021B400358FE1 /* Rubric.swift in Sources */,
 				04D752AC20E065FF00358FE1 /* GradePercentageTableViewCell.swift in Sources */,
 				04D750F120E0293D00358FE1 /* ClassChangesListener.swift in Sources */,
+				04D752D420E06F5F00358FE1 /* ClassPeekViewController.swift in Sources */,
 				04D750E520E028AF00358FE1 /* UIRubricViewState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

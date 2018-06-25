@@ -295,27 +295,27 @@ class ClassesTableViewController: UITableViewController, RealmTableView {
     // MARK: Helper Methods
     
     /// Updates the size for the Ad
-    private func updateAdSize(withOrientation orientation: UIDeviceOrientation, size: CGSize) {
-        let adSize: GADAdSize
-        
-        switch orientation {
-        case .landscapeLeft: fallthrough
-        case .landscapeRight:
-            // Hide banner in landscape when empty view is shown
-            if self.emptyStateViewShouldShow(for: self.tableView) {
-                adSize = kGADAdSizeInvalid
-                self.bannerAdView.isHidden = true
-            } else {
-                self.bannerAdView.isHidden = false
-                adSize = kGADAdSizeSmartBannerLandscape
-            }
-        default:
-            self.bannerAdView.isHidden = false
-            adSize = kGADAdSizeSmartBannerPortrait
-        }
-        
-        self.bannerAdView.adSize = adSize
-    }
+//    private func updateAdSize(withOrientation orientation: UIDeviceOrientation, size: CGSize) {
+//        let adSize: GADAdSize
+//
+//        switch orientation {
+//        case .landscapeLeft: fallthrough
+//        case .landscapeRight:
+//            // Hide banner in landscape when empty view is shown
+//            if self.emptyStateViewShouldShow(for: self.tableView) {
+//                adSize = kGADAdSizeInvalid
+//                self.bannerAdView.isHidden = true
+//            } else {
+//                self.bannerAdView.isHidden = false
+//                adSize = kGADAdSizeSmartBannerLandscape
+//            }
+//        default:
+//            self.bannerAdView.isHidden = false
+//            adSize = kGADAdSizeSmartBannerPortrait
+//        }
+//
+//        self.bannerAdView.adSize = adSize
+//    }
     
     /// This generates all of the possible Semester combinations, this array will be the sections for the table view
     private func generateSemesters() -> [Semester] {
@@ -595,14 +595,14 @@ extension ClassesTableViewController: Segueable {
 
 // MARK: Google Ad View delegate
 
-extension ClassesTableViewController: GADBannerViewDelegate {
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        self.bannerAdView.alpha = 0.0
-        UIView.animate(withDuration: 0.6) {
-            self.bannerAdView.alpha = 1.0
-        }
-    }
-}
+//extension ClassesTableViewController: GADBannerViewDelegate {
+//    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+//        self.bannerAdView.alpha = 0.0
+//        UIView.animate(withDuration: 0.6) {
+//            self.bannerAdView.alpha = 1.0
+//        }
+//    }
+//}
 
 // MARK: AddEditClassDelegation
 
